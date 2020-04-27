@@ -1,0 +1,387 @@
+body,div,ul,li{padding:0; margin:0;}
+
+.header{
+	width:auto;
+	height:160px;
+	background:black;
+	border-style:solid;
+}
+.wrap{
+	width:auto;
+	height:auto;
+	background: gray;
+	border-style:solid;
+	margin:0 0 0 0;
+	vertical-align: top;
+}
+.welcome{
+	margin-left:19%;
+}
+.CD{
+	float:right;
+	margin-right:21%;
+}
+.search{
+	float:right;
+}
+.topmain{
+	width:auto;
+	background: black;
+}
+	
+.topin{
+	margin-left:22%;
+	
+}
+.logo{
+	margin-left:3%;
+	margin-top:1%;
+	margin-bottom:2%；
+	float:left;
+}
+
+
+#topnav{ 
+	width:100%; 
+	height:35px; 
+	background:#CCC;背景色*/ 
+	margin-top:0px;
+	text-align:center;
+	border-style:solid;
+	border-width:1px;
+} 
+#topnav ul{
+    width: auto;/*宽度也改为自动*/
+    list-style-type: none;
+    white-space:nowrap;
+    overflow: hidden;
+    margin-left: 20%;
+    padding: 0;
+}
+#topnav ul li{ 
+	float:left; 
+	list-style:none; 
+	text-align:center; 
+	margin-right:2%;
+
+} 
+#topnav ul li a{
+	display: block; 
+	margin:5px;
+	text-decoration: none;
+	text-align: center;
+    padding: 3px;
+
+}
+
+#topnav ul li a:hover{
+    /* 鼠标选中时背景变为黑色 */
+    background-color: #111;
+}
+
+#search{
+	float:right;
+	
+}
+
+.borden1{
+	background:black;
+	width:100%;
+	height:5px;
+}
+.left{
+        float: left;
+        width: 300px;
+        background: black;
+        height: 1200px;
+    }
+.center{
+        margin: 0 300px 0 300px;
+        background:#F1FAFA;
+        height: 1200px;
+    }
+
+
+.right{
+        float: right;
+        width:300px;
+        background: black;
+        height: 1200px;
+    }
+.resiger{
+	heigt:40px;
+	border-style:solid;
+	border-width:1px;
+}
+.centerLeft{
+	border:1px;
+	border-style:solid;
+	float:left;
+	height:25%;
+	width:640px;
+	margin:2px 0 0 0;
+}
+	
+	
+.centerRight{
+	float:right;
+	width:250px;
+	height:95%;
+	border-width:1px;
+	border-style:solid;
+	margin-right:10px;
+}
+#right{
+	float:right;
+	width:230px;
+	height:250px;
+	border-width:1px;
+	border-style:solid;
+	margin-right:10px;
+	margin-top:10px;
+	
+}
+#right li{
+	list-style:none; 
+	font-size: 9px;
+	margin:9px 5px 0 5px;
+	
+}
+#right li a{
+	text-decoration:none;
+	color:black;
+	
+}
+#right li a:hover{
+    /* 鼠标选中时背景变色 */
+    background-color:#F06;
+}
+
+#Ti{
+	height:30px;
+	border-style:solid;
+	border-width:1px;
+	width: 100%;
+    display: inline-block;
+	font-size: 21px;
+}
+#Ti a{
+	padding:15px 15px 0px 2px;
+}
+#menu{
+	width:312px;
+	height:135px;
+	float:left;
+	border-width:1px;
+	background:white;
+	border-style:solid;
+	margin:7px 5px 5px 10px;
+}
+#menu  li{
+	list-style:none; 
+	font-size: 12px;
+	margin:5px 5px 0 5px;
+	}
+#menu li a{
+	text-decoration:none;
+	color:black;
+}
+#menu li a:hover{
+    /* 鼠标选中时背景变色 */
+    background-color:#CF9;
+}
+.title{
+	height:25px;
+	border-style:solid;
+	border-width:1px;
+	font-size:15px;
+	padding:5px 5px 0px 10px;
+}
+#Inf{}
+.InfTi{
+	font-size:30px;
+	margin-left:2%;
+	margin-bottom:3%;
+	margin-top:5%;
+	
+}
+#Inf li{
+	list-style:none; 
+	font-size: 14px;
+	margin:10px 10px 0 20px;
+}
+#Inf li a{
+	text-decoration:none;
+	color:#006;	
+}
+#Inf li a:hover{
+    /* 鼠标选中时背景变色 */
+    background-color:#CF9;
+}
+
+.messageboard{
+	float:right;
+	width:230px;
+	height:580px;
+	border-width:1px;
+	border-style:solid;
+	margin-right:10px;
+	margin-top:10px;	
+}
+.p{font-size:12px;text-align:center;}
+.wrapp{
+	width:230px;
+	height:540px;
+	backgroud:#ccc;
+	margin:0px auto;
+	border-width:1px;
+	overflow:hidden;
+}
+.add{
+	overflow:hidden;
+}
+.add .content{
+	width:230px;
+	height:50px;
+	margin:0;
+	padding:0;
+	border-width:1px;
+	border-style:solid;
+}
+.add .user{
+	float:left;
+	width:80px;
+	height:20px
+}
+.add .btn{
+	float:right;
+}
+		
+.msg{margin:20px 0px;}
+.msg .info{overflow:hidden;}
+.msg .user{float:left;color:blue;font-size:10px;}
+.msg .time{float:right;color:#999;font-size:10px;}
+.msg .content{wigth:100%;padding:3px;font-size:10px;}
+
+.foot{
+	height:200px;
+	width:100%;
+	background:#272727;
+	border-top: 2px solid #c7c7c7;
+}
+.foot .nav {
+	text-align: center;
+	padding: 20px 0px;
+}
+.foot .nav li{
+	display: inline;
+}
+.foot .nav li a     {
+	font: 12px "Microsoft YaHei";
+	color: #FFF;
+	text-decoration: none;
+	margin: 0px 15px;
+}
+.foot .nav li a:hover {
+	color: #FF0;
+	text-decoration: none;
+}
+.foot .bar {
+	font-size: 12px;
+	line-height: 30px;
+	color: #bbb;
+	border-top: 1px solid #BBB;
+}
+.foot .bar p{
+	color: #BBB;
+	text-decoration: none;
+	text-align:center;
+}
+.foot .bar p:hover {
+	color: #FFF;
+	text-decoration: none;
+}
+
+#container {
+	width: 390px;
+	height: 300px;
+	overflow: hidden;
+	margin-left:1%;
+	float:left;
+}
+
+#Recruitment {
+	width: 150px;
+	height: 20px;
+	overflow: hidden;
+	margin-top:2%;
+	float:right;
+	text-decoration:none;
+	color:#006;	
+}
+
+#RecruitmentMain{
+	width: 230px;
+	height: 70px;
+	overflow: hidden;
+	float:right;
+	margin-top:3%;
+	text-decoration:none;
+	color:#006;	
+}
+#RecruitmentPage{
+	width: 230px;
+	height: 80px;
+	overflow: hidden;
+	float:right;
+	margin-top:1%;
+	text-decoration:none;
+	color:#006;	
+}
+
+#RecruitmentPage li{
+	margin-top: 2%;
+}
+
+#RecruitmentPage li a{
+	text-decoration:none;
+}
+
+#RecruitmentPage li a:hover{
+    /* 鼠标选中时背景变色 */
+    background-color:#CF9;
+}
+#photo {
+	width: 1200px;
+	animation: switch 5s ease-out infinite;
+}
+
+#photo > img {
+	float: left;
+	width: 400px;
+	height: 300px;
+}
+
+@keyframes switch {
+	0%, 25% {
+		margin-left: 0;
+	}
+	35%, 60% {
+		margin-left: -400px;
+	}
+	70%, 100% {
+		margin-left: -800px;
+	}
+}
+
+#maintime {  
+    margin:auto;
+    text-align: center; 
+	margin-left:40%  
+ 	
+}  
+#show_time0,#show_time {  
+	width:300px;
+    color: #FFF; 
+	text-align: center; 
+}  
